@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab07.ExplicitDemo">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="labelRedStyle" TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="FontSize" Value="Large" />
+                <Setter Property="TextColor" Value="Red" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Padding="0,20,0,0">
+            <Label Text="These labels"
+                     Style="{StaticResource labelRedStyle}" />
+            <Label Text="are demonstrating"
+                     Style="{StaticResource labelRedStyle}" />
+            <Label Text="explicit styles"
+                     Style="{StaticResource labelRedStyle}" />
+            <Label Text="and an explicit style override"
+                     Style="{StaticResource labelRedStyle}"
+                     TextColor="Teal"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
