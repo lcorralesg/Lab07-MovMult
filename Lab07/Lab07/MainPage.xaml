@@ -12,6 +12,7 @@
             <Button x:Name="Item5" Text="GlobalDemo" />
             <Button x:Name="Item6" Text="InheritanceDemo" />
             <Button x:Name="Item7" Text="DynamicDemo" />
+            <Button x:Name="Item8" Text="CSSDemo" BackgroundColor="Red" />
         </StackLayout>
     </StackLayout>
 

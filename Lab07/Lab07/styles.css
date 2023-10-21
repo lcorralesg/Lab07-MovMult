@@ -1,0 +1,16 @@
+.CSSButton {
+    background-color: #11313F;
+    border-radius: 5;
+    border: none;
+    color: white;
+    padding: 10 20;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16;
+}
+.CSSLabel{
+    font-size: 20;
+    font-weight: bold;
+    color: #3498DB;
+}
